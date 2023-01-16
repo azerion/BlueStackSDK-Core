@@ -34,7 +34,7 @@ spec.source           = { :git => "https://github.com/azerion/BlueStackSDK-Core.
 
   spec.subspec 'Core' do |mng|
     mng.vendored_frameworks = 'BlueStackSDK.xcframework'
-    mng.dependency 'OMSDKMadvertise'
+    mng.dependency 'BlueStack-SDK/OMSDKMadvertise'
   end
 
   spec.subspec 'OMSDKMadvertise' do |om|
